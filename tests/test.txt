@@ -1,0 +1,2828 @@
+----------------------------
+test number #:0
+test format:%05d|%%|
+
+00042|%|
+00042|%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:1
+test format:%05d|%%|
+
+00042|%|
+00042|%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:2
+test format:%05d|%%|
+
+-0042|%|
+-0042|%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:3
+test format:%0d|%%|
+
+42|%|
+42|%|
+
+ft_printf:6
+printf:6
+----------------------------
+test number #:4
+test format:%0*d|%%|
+
+00042|%|
+00042|%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:5
+test format:%0*d|%%|
+
+-42  |%|
+-42  |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:6
+test format:%010.5d|%%|
+
+     00042|%|
+     00042|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:7
+test format:%010.5d|%%|
+
+    -00004|%|
+    -00042|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:8
+test format:%010.d|%%|
+
+        42|%|
+        42|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:9
+test format:%010.*d|%%|
+
+     00042|%|
+     00042|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:10
+test format:%010.*d|%%|
+
+0000000042|%|
+0000000042|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:11
+test format:%0*.5d|%%|
+
+     00042|%|
+     00042|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:12
+test format:%0*.5d|%%|
+
+00042     |%|
+00042     |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:13
+test format:%0*.5d|%%|
+
+-00004    |%|
+-00042    |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:14
+test format:%0*.5d|%%|
+
+    -00004|%|
+    -00042|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:15
+test format:%0*.*d|%%|
+
+     00042|%|
+     00042|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:16
+test format:%0*.*d|%%|
+
+00042     |%|
+00042     |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:17
+test format:%0*.*d|%%|
+
+0000000042|%|
+0000000042|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:18
+test format:%0*.*d|%%|
+
+    -00004|%|
+    -00042|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:19
+test format:%0*.*d|%%|
+
+42        |%|
+42        |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:20
+test format:%0*.*d|%%|
+
+-00004    |%|
+-00042    |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:21
+test format:%0*.*d|%%|
+
+-000000042|%|
+-000000042|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:22
+test format:%0*.*d|%%|
+
+-42       |%|
+-42       |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:23
+test format:%5d|%%|
+
+  -42|%|
+  -42|%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:24
+test format:%5d|%%|
+
+   42|%|
+   42|%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:25
+test format:%*d|%%|
+
+  -42|%|
+  -42|%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:26
+test format:%*d|%%|
+
+-42  |%|
+-42  |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:27
+test format:%*d|%%|
+
+42   |%|
+42   |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:28
+test format:%-d|%%|
+
+42|%|
+42|%|
+
+ft_printf:6
+printf:6
+----------------------------
+test number #:29
+test format:%-d|%%|
+
+42|%|
+42|%|
+
+ft_printf:6
+printf:6
+----------------------------
+test number #:30
+test format:%-5d|%%|
+
+42   |%|
+42   |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:31
+test format:%-5d|%%|
+
+-42  |%|
+-42  |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:32
+test format:%.*d|%%|
+
+-00004|%|
+-00042|%|
+
+ft_printf:10
+printf:10
+----------------------------
+test number #:33
+test format:%.*d|%%|
+
+00042|%|
+00042|%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:34
+test format:%.*d|%%|
+
+42|%|
+42|%|
+
+ft_printf:6
+printf:6
+----------------------------
+test number #:35
+test format:%.*d|%%|
+
+-42|%|
+-42|%|
+
+ft_printf:7
+printf:7
+----------------------------
+test number #:36
+test format:%-*d|%%|
+
+-42  |%|
+-42  |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:37
+test format:%-*d|%%|
+
+-42  |%|
+-42  |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:38
+test format:%-*d|%%|
+
+42   |%|
+42   |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:39
+test format:%-*d|%%|
+
+42   |%|
+42   |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:40
+test format:%-5.d|%%|
+
+42   |%|
+42   |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:41
+test format:%-5.d|%%|
+
+-04  |%|
+-42  |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:42
+test format:%-10.5d|%%|
+
+00042     |%|
+00042     |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:43
+test format:%-10.5d|%%|
+
+-00004    |%|
+-00042    |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:44
+test format:%-*.d|%%|
+
+-04  |%|
+-42  |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:45
+test format:%-*.d|%%|
+
+-04  |%|
+-42  |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:46
+test format:%-*.d|%%|
+
+42   |%|
+42   |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:47
+test format:%-*.d|%%|
+
+42   |%|
+42   |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:48
+test format:%-*.3d|%%|
+
+042  |%|
+042  |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:49
+test format:%-*.3d|%%|
+
+042  |%|
+042  |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:50
+test format:%-*.3d|%%|
+
+-004 |%|
+-042 |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:51
+test format:%-*.3d|%%|
+
+-004 |%|
+-042 |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:52
+test format:%-5.*d|%%|
+
+042  |%|
+042  |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:53
+test format:%-5.*d|%%|
+
+42   |%|
+42   |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:54
+test format:%-5.*d|%%|
+
+-42  |%|
+-42  |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:55
+test format:%-5.*d|%%|
+
+-004 |%|
+-042 |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:56
+test format:%-*.*d|%%|
+
+00042     |%|
+00042     |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:57
+test format:%-*.*d|%%|
+
+00042     |%|
+00042     |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:58
+test format:%-*.*d|%%|
+
+42        |%|
+42        |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:59
+test format:%-*.*d|%%|
+
+-00004    |%|
+-00042    |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:60
+test format:%-*.*d|%%|
+
+-00004    |%|
+-00042    |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:61
+test format:%-*.*d|%%|
+
+42        |%|
+42        |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:62
+test format:%-*.*d|%%|
+
+-42       |%|
+-42       |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:63
+test format:%-*.*d|%%|
+
+-42       |%|
+-42       |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:64
+test format:%5.d|%%|
+
+   42|%|
+   42|%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:65
+test format:%5.d|%%|
+
+  -04|%|
+  -42|%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:66
+test format:%10.5d|%%|
+
+    -00004|%|
+    -00042|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:67
+test format:%10.5d|%%|
+
+     00042|%|
+     00042|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:68
+test format:%10.*d|%%|
+
+     00042|%|
+     00042|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:69
+test format:%10.*d|%%|
+
+        42|%|
+        42|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:70
+test format:%10.*d|%%|
+
+    -00004|%|
+    -00042|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:71
+test format:%10.*d|%%|
+
+       -42|%|
+       -42|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:72
+test format:%*.d|%%|
+
+   42|%|
+   42|%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:73
+test format:%*.d|%%|
+
+  -04|%|
+  -42|%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:74
+test format:%*.d|%%|
+
+-04  |%|
+-42  |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:75
+test format:%*.d|%%|
+
+42   |%|
+42   |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:76
+test format:%*.5d|%%|
+
+     00042|%|
+     00042|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:77
+test format:%*.5d|%%|
+
+00042     |%|
+00042     |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:78
+test format:%*.5d|%%|
+
+-00004    |%|
+-00042    |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:79
+test format:%*.5d|%%|
+
+    -00004|%|
+    -00042|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:80
+test format:%*.*d|%%|
+
+     00042|%|
+     00042|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:81
+test format:%*.*d|%%|
+
+00042     |%|
+00042     |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:82
+test format:%*.*d|%%|
+
+        42|%|
+        42|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:83
+test format:%*.*d|%%|
+
+    -00004|%|
+    -00042|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:84
+test format:%*.*d|%%|
+
+-00004    |%|
+-00042    |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:85
+test format:%*.*d|%%|
+
+42        |%|
+42        |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:86
+test format:%*.*d|%%|
+
+       -42|%|
+       -42|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:87
+test format:%*.*i|%%|
+
+-42       |%|
+-42       |%|
+
+ft_printf:14
+printf:14
+
+<==============================%%end of d conversion test%%==============================>
+
+----------------------------
+test number #:0
+test format:%10s|%%|
+
+     lorem|%|
+     lorem|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:1
+test format:%10s|%%|
+
+    (null)|%|
+    (null)|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:2
+test format:%*s|%%|
+
+     lorem|%|
+     lorem|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:3
+test format:%*s|%%|
+
+    (null)|%|
+    (null)|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:4
+test format:%*s|%%|
+
+lorem     |%|
+lorem     |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:5
+test format:%*s|%%|
+
+(null)    |%|
+(null)    |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:6
+test format:%-s|%%|
+
+lorem|%|
+lorem|%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:7
+test format:%-s|%%|
+
+(null)|%|
+(null)|%|
+
+ft_printf:10
+printf:10
+----------------------------
+test number #:8
+test format:%-10s|%%|
+
+lorem     |%|
+lorem     |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:9
+test format:%-10s|%%|
+
+(null)    |%|
+(null)    |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:10
+test format:%-*s|%%|
+
+lorem     |%|
+lorem     |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:11
+test format:%-*s|%%|
+
+lorem     |%|
+lorem     |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:12
+test format:%-*s|%%|
+
+(null)    |%|
+(null)    |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:13
+test format:%-*s|%%|
+
+(null)    |%|
+(null)    |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:14
+test format:%-10.s|%%|
+
+          |%|
+          |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:15
+test format:%-10.s|%%|
+
+          |%|
+          |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:16
+test format:%-10.7s|%%|
+
+loremip   |%|
+loremip   |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:17
+test format:%-10.3s|%%|
+
+(nu       |%|
+(nu       |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:18
+test format:%-*.s|%%|
+
+          |%|
+          |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:19
+test format:%-*.s|%%|
+
+          |%|
+          |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:20
+test format:%-*.s|%%|
+
+          |%|
+          |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:21
+test format:%-*.s|%%|
+
+          |%|
+          |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:22
+test format:%-*.5s|%%|
+
+lorem     |%|
+lorem     |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:23
+test format:%-*.5s|%%|
+
+lorem     |%|
+lorem     |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:24
+test format:%-*.5s|%%|
+
+(null     |%|
+(null     |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:25
+test format:%-*.5s|%%|
+
+(null     |%|
+(null     |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:26
+test format:%-10.*s|%%|
+
+lorem     |%|
+lorem     |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:27
+test format:%-10.*s|%%|
+
+loremipsum|%|
+loremipsum|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:28
+test format:%-10.*s|%%|
+
+(null     |%|
+(null     |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:29
+test format:%-10.*s|%%|
+
+(null)    |%|
+(null)    |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:30
+test format:%-*.*s|%%|
+
+lorem     |%|
+lorem     |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:31
+test format:%-*.*s|%%|
+
+lorem     |%|
+lorem     |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:32
+test format:%-*.*s|%%|
+
+loremipsum|%|
+loremipsum|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:33
+test format:%-*.*s|%%|
+
+(null     |%|
+(null     |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:34
+test format:%-*.*s|%%|
+
+loremipsum|%|
+loremipsum|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:35
+test format:%-*.*s|%%|
+
+(null     |%|
+(null     |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:36
+test format:%-*.*s|%%|
+
+(null)    |%|
+(null)    |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:37
+test format:%-*.*s|%%|
+
+(null)    |%|
+(null)    |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:38
+test format:%5.s|%%|
+
+     |%|
+     |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:39
+test format:%5.s|%%|
+
+     |%|
+     |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:40
+test format:%10.5s|%%|
+
+     lorem|%|
+     lorem|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:41
+test format:%10.5s|%%|
+
+     (null|%|
+     (null|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:42
+test format:%10.*s|%%|
+
+loremipsum|%|
+loremipsum|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:43
+test format:%10.*s|%%|
+
+     lorem|%|
+     lorem|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:44
+test format:%10.*s|%%|
+
+     (null|%|
+     (null|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:45
+test format:%10.*s|%%|
+
+    (null)|%|
+    (null)|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:46
+test format:%*.s|%%|
+
+     |%|
+     |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:47
+test format:%*.s|%%|
+
+     |%|
+     |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:48
+test format:%*.s|%%|
+
+     |%|
+     |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:49
+test format:%*.s|%%|
+
+     |%|
+     |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:50
+test format:%*.5s|%%|
+
+     lorem|%|
+     lorem|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:51
+test format:%*.5s|%%|
+
+     (null|%|
+     (null|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:52
+test format:%*.5s|%%|
+
+lorem     |%|
+lorem     |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:53
+test format:%*.5s|%%|
+
+(null     |%|
+(null     |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:54
+test format:%*.*s|%%|
+
+     lorem|%|
+     lorem|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:55
+test format:%*.*s|%%|
+
+lorem     |%|
+lorem     |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:56
+test format:%*.*s|%%|
+
+loremipsum|%|
+loremipsum|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:57
+test format:%*.*s|%%|
+
+     (null|%|
+     (null|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:58
+test format:%*.*s|%%|
+
+loremipsum|%|
+loremipsum|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:59
+test format:%*.*s|%%|
+
+(null     |%|
+(null     |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:60
+test format:%*.*s|%%|
+
+    (null)|%|
+    (null)|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:61
+test format:%*.*s|%%|
+
+(null)    |%|
+(null)    |%|
+
+ft_printf:14
+printf:14
+
+<==============================%%end of s conversion test%%==============================>
+
+----------------------------
+test number #:0
+test format:%5c|%%|
+
+    a|%|
+    a|%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:1
+test format:%*c|%%|
+
+    b|%|
+    b|%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:2
+test format:%*c|%%|
+
+c    |%|
+c    |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:3
+test format:%-c|%%|
+
+d|%|
+d|%|
+
+ft_printf:5
+printf:5
+----------------------------
+test number #:4
+test format:%-5c|%%|
+
+e    |%|
+e    |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:5
+test format:%-*c|%%|
+
+f    |%|
+f    |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:6
+test format:%-*c|%%|
+
+g    |%|
+g    |%|
+
+ft_printf:9
+printf:9
+
+<==============================%%end of c conversion test%%==============================>
+
+----------------------------
+test number #:0
+test format:%p|%%|
+
+-0xffffffffffffffff|%|
+0xffffffffffffffff|%|
+
+ft_printf:23
+printf:22
+[KO]
+----------------------------
+test number #:1
+test format:%p|%%|
+
+0xfffffffffffffff|%|
+0xfffffffffffffff|%|
+
+ft_printf:21
+printf:21
+----------------------------
+test number #:2
+test format:%p|%%|
+
+0xf0f0f0f0f0f0f0f|%|
+0xf0f0f0f0f0f0f0f|%|
+
+ft_printf:21
+printf:21
+----------------------------
+test number #:3
+test format:%p|%%|
+
+-0xabcdef0123456789|%|
+0xabcdef0123456789|%|
+
+ft_printf:23
+printf:22
+[KO]
+----------------------------
+test number #:4
+test format:%p|%%|
+
+0xf0f|%|
+0xf0f|%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:5
+test format:%p|%%|
+
+0x0|%|
+0x0|%|
+
+ft_printf:7
+printf:7
+----------------------------
+test number #:6
+test format:%p|%%|
+
+-0xfedcba9876543210|%|
+0xfedcba9876543210|%|
+
+ft_printf:23
+printf:22
+[KO]
+----------------------------
+test number #:7
+test format:%p|%%|
+
+-0xfedcba987654320f|%|
+0xfedcba987654320f|%|
+
+ft_printf:23
+printf:22
+[KO]
+----------------------------
+test number #:8
+test format:%20p|%%|
+
+ -0xfedcba987654320e|%|
+  0xfedcba987654320e|%|
+
+ft_printf:24
+printf:24
+----------------------------
+test number #:9
+test format:%-20p|%%|
+
+-0xfedcba987654320d |%|
+0xfedcba987654320d  |%|
+
+ft_printf:24
+printf:24
+----------------------------
+test number #:10
+test format:%*p|%%|
+
+ -0xfedcba987654320c|%|
+  0xfedcba987654320c|%|
+
+ft_printf:24
+printf:24
+----------------------------
+test number #:11
+test format:%*p|%%|
+
+-0xfedcba987654320b |%|
+0xfedcba987654320b  |%|
+
+ft_printf:24
+printf:24
+----------------------------
+test number #:12
+test format:%-p|%%|
+
+-0xfedcba987654320a|%|
+0xfedcba987654320a|%|
+
+ft_printf:23
+printf:22
+[KO]
+----------------------------
+test number #:13
+test format:%-*p|%%|
+
+-0xfedcba9876543209 |%|
+0xfedcba9876543209  |%|
+
+ft_printf:24
+printf:24
+----------------------------
+test number #:14
+test format:%-*p|%%|
+
+-0xfedcba9876543208 |%|
+0xfedcba9876543208  |%|
+
+ft_printf:24
+printf:24
+----------------------------
+test number #:15
+test format:%p|%%|
+
+0x14|%|
+0x14|%|
+
+ft_printf:8
+printf:8
+
+<==============================%%end of p conversion test%%==============================>
+----------------------------
+test number #:0
+test format:%015u|%%|
+
+000004294967295|%|
+000004294967295|%|
+
+ft_printf:19
+printf:19
+----------------------------
+test number #:1
+test format:%0u|%%|
+
+84|%|
+84|%|
+
+ft_printf:6
+printf:6
+----------------------------
+test number #:2
+test format:%0*u|%%|
+
+00084|%|
+00084|%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:3
+test format:%010.5u|%%|
+
+     00084|%|
+     00084|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:4
+test format:%010.u|%%|
+
+        84|%|
+        84|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:5
+test format:%010.*u|%%|
+
+     00084|%|
+     00084|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:6
+test format:%010.*u|%%|
+
+0000000084|%|
+0000000084|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:7
+test format:%0*.5u|%%|
+
+     00084|%|
+     00084|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:8
+test format:%0*.5u|%%|
+
+00084     |%|
+00084     |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:9
+test format:%0*.*u|%%|
+
+     00084|%|
+     00084|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:10
+test format:%0*.*u|%%|
+
+00084     |%|
+00084     |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:11
+test format:%0*.*u|%%|
+
+0000000084|%|
+0000000084|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:12
+test format:%0*.*u|%%|
+
+84        |%|
+84        |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:13
+test format:%5u|%%|
+
+   84|%|
+   84|%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:14
+test format:%*u|%%|
+
+84   |%|
+84   |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:15
+test format:%-u|%%|
+
+84|%|
+84|%|
+
+ft_printf:6
+printf:6
+----------------------------
+test number #:16
+test format:%-u|%%|
+
+84|%|
+84|%|
+
+ft_printf:6
+printf:6
+----------------------------
+test number #:17
+test format:%-5u|%%|
+
+84   |%|
+84   |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:18
+test format:%.*u|%%|
+
+00084|%|
+00084|%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:19
+test format:%.*u|%%|
+
+84|%|
+84|%|
+
+ft_printf:6
+printf:6
+----------------------------
+test number #:20
+test format:%-*u|%%|
+
+84   |%|
+84   |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:21
+test format:%-*u|%%|
+
+84   |%|
+84   |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:22
+test format:%-5.u|%%|
+
+84   |%|
+84   |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:23
+test format:%-10.5u|%%|
+
+00084     |%|
+00084     |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:24
+test format:%-*.u|%%|
+
+84   |%|
+84   |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:25
+test format:%-*.u|%%|
+
+84   |%|
+84   |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:26
+test format:%-*.3u|%%|
+
+084  |%|
+084  |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:27
+test format:%-*.3u|%%|
+
+084  |%|
+084  |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:28
+test format:%-5.*u|%%|
+
+084  |%|
+084  |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:29
+test format:%-5.*u|%%|
+
+84   |%|
+84   |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:30
+test format:%-*.*u|%%|
+
+00084     |%|
+00084     |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:31
+test format:%-*.*u|%%|
+
+00084     |%|
+00084     |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:32
+test format:%-*.*u|%%|
+
+84        |%|
+84        |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:33
+test format:%-*.*u|%%|
+
+84        |%|
+84        |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:34
+test format:%5.u|%%|
+
+   84|%|
+   84|%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:35
+test format:%10.5u|%%|
+
+     00084|%|
+     00084|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:36
+test format:%10.*u|%%|
+
+     00084|%|
+     00084|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:37
+test format:%10.*u|%%|
+
+        84|%|
+        84|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:38
+test format:%*.u|%%|
+
+   84|%|
+   84|%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:39
+test format:%*.u|%%|
+
+84   |%|
+84   |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:40
+test format:%*.5u|%%|
+
+     00084|%|
+     00084|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:41
+test format:%*.5u|%%|
+
+00084     |%|
+00084     |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:42
+test format:%*.*u|%%|
+
+     00084|%|
+     00084|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:43
+test format:%*.*u|%%|
+
+00084     |%|
+00084     |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:44
+test format:%*.*u|%%|
+
+        84|%|
+        84|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:45
+test format:%*.*u|%%|
+
+84        |%|
+84        |%|
+
+ft_printf:14
+printf:14
+
+<==============================%%end of u conversion test%%==============================>
+
+----------------------------
+test number #:0
+test format:%015x|%%|
+
+0000000ffffffff|%|
+0000000ffffffff|%|
+
+ft_printf:19
+printf:19
+----------------------------
+test number #:1
+test format:%0x|%%|
+
+dab|%|
+dab|%|
+
+ft_printf:7
+printf:7
+----------------------------
+test number #:2
+test format:%0*x|%%|
+
+00daa|%|
+00daa|%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:3
+test format:%010.5x|%%|
+
+     00da9|%|
+     00da9|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:4
+test format:%010.x|%%|
+
+       da8|%|
+       da8|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:5
+test format:%010.*x|%%|
+
+     00da7|%|
+     00da7|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:6
+test format:%010.*x|%%|
+
+0000000da6|%|
+0000000da6|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:7
+test format:%0*.5x|%%|
+
+     00da5|%|
+     00da5|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:8
+test format:%0*.5x|%%|
+
+00da4     |%|
+00da4     |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:9
+test format:%0*.*x|%%|
+
+     00da3|%|
+     00da3|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:10
+test format:%0*.*x|%%|
+
+00da2     |%|
+00da2     |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:11
+test format:%0*.*x|%%|
+
+0000000da1|%|
+0000000da1|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:12
+test format:%0*.*x|%%|
+
+da0       |%|
+da0       |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:13
+test format:%5x|%%|
+
+  d9f|%|
+  d9f|%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:14
+test format:%*x|%%|
+
+d9e  |%|
+d9e  |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:15
+test format:%-x|%%|
+
+d9d|%|
+d9d|%|
+
+ft_printf:7
+printf:7
+----------------------------
+test number #:16
+test format:%-x|%%|
+
+d9c|%|
+d9c|%|
+
+ft_printf:7
+printf:7
+----------------------------
+test number #:17
+test format:%-5x|%%|
+
+d9b  |%|
+d9b  |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:18
+test format:%.*x|%%|
+
+00d9a|%|
+00d9a|%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:19
+test format:%.*x|%%|
+
+d99|%|
+d99|%|
+
+ft_printf:7
+printf:7
+----------------------------
+test number #:20
+test format:%-*x|%%|
+
+d98  |%|
+d98  |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:21
+test format:%-*x|%%|
+
+d97  |%|
+d97  |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:22
+test format:%-5.x|%%|
+
+d96  |%|
+d96  |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:23
+test format:%-10.5x|%%|
+
+00d95     |%|
+00d95     |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:24
+test format:%-*.x|%%|
+
+d94  |%|
+d94  |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:25
+test format:%-*.x|%%|
+
+d93  |%|
+d93  |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:26
+test format:%-*.3x|%%|
+
+d92  |%|
+d92  |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:27
+test format:%-*.3x|%%|
+
+d91  |%|
+d91  |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:28
+test format:%-5.*x|%%|
+
+d90  |%|
+d90  |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:29
+test format:%-5.*x|%%|
+
+d8f  |%|
+d8f  |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:30
+test format:%-*.*x|%%|
+
+00d8e     |%|
+00d8e     |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:31
+test format:%-*.*x|%%|
+
+00d8d     |%|
+00d8d     |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:32
+test format:%-*.*x|%%|
+
+d8c       |%|
+d8c       |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:33
+test format:%-*.*x|%%|
+
+d8b       |%|
+d8b       |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:34
+test format:%5.x|%%|
+
+  d8a|%|
+  d8a|%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:35
+test format:%10.5x|%%|
+
+     00d89|%|
+     00d89|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:36
+test format:%10.*x|%%|
+
+     00d88|%|
+     00d88|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:37
+test format:%10.*x|%%|
+
+       d87|%|
+       d87|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:38
+test format:%*.x|%%|
+
+  d86|%|
+  d86|%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:39
+test format:%*.x|%%|
+
+d85  |%|
+d85  |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:40
+test format:%*.5x|%%|
+
+     00d84|%|
+     00d84|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:41
+test format:%*.5x|%%|
+
+00d83     |%|
+00d83     |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:42
+test format:%*.*x|%%|
+
+     00d82|%|
+     00d82|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:43
+test format:%*.*x|%%|
+
+00d81     |%|
+00d81     |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:44
+test format:%*.*x|%%|
+
+       d80|%|
+       d80|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:45
+test format:%*.*x|%%|
+
+d7f       |%|
+d7f       |%|
+
+ft_printf:14
+printf:14
+
+<==============================%%end of x conversion test%%==============================>
+
+----------------------------
+test number #:0
+test format:%015X|%%|
+
+0000000FFFFFFFF|%|
+0000000FFFFFFFF|%|
+
+ft_printf:19
+printf:19
+----------------------------
+test number #:1
+test format:%0X|%%|
+
+DAB|%|
+DAB|%|
+
+ft_printf:7
+printf:7
+----------------------------
+test number #:2
+test format:%0*X|%%|
+
+00DAA|%|
+00DAA|%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:3
+test format:%010.5X|%%|
+
+     00DA9|%|
+     00DA9|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:4
+test format:%010.X|%%|
+
+       DA8|%|
+       DA8|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:5
+test format:%010.*X|%%|
+
+     00DA7|%|
+     00DA7|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:6
+test format:%010.*X|%%|
+
+0000000DA6|%|
+0000000DA6|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:7
+test format:%0*.5X|%%|
+
+     00DA5|%|
+     00DA5|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:8
+test format:%0*.5X|%%|
+
+00DA4     |%|
+00DA4     |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:9
+test format:%0*.*X|%%|
+
+     00DA3|%|
+     00DA3|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:10
+test format:%0*.*X|%%|
+
+00DA2     |%|
+00DA2     |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:11
+test format:%0*.*X|%%|
+
+0000000DA1|%|
+0000000DA1|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:12
+test format:%0*.*X|%%|
+
+DA0       |%|
+DA0       |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:13
+test format:%5X|%%|
+
+  D9F|%|
+  D9F|%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:14
+test format:%*X|%%|
+
+D9E  |%|
+D9E  |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:15
+test format:%-X|%%|
+
+D9D|%|
+D9D|%|
+
+ft_printf:7
+printf:7
+----------------------------
+test number #:16
+test format:%-X|%%|
+
+D9C|%|
+D9C|%|
+
+ft_printf:7
+printf:7
+----------------------------
+test number #:17
+test format:%-5X|%%|
+
+D9B  |%|
+D9B  |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:18
+test format:%.*X|%%|
+
+00D9A|%|
+00D9A|%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:19
+test format:%.*X|%%|
+
+D99|%|
+D99|%|
+
+ft_printf:7
+printf:7
+----------------------------
+test number #:20
+test format:%-*X|%%|
+
+D98  |%|
+D98  |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:21
+test format:%-*X|%%|
+
+D97  |%|
+D97  |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:22
+test format:%-5.X|%%|
+
+D96  |%|
+D96  |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:23
+test format:%-10.5X|%%|
+
+00D95     |%|
+00D95     |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:24
+test format:%-*.X|%%|
+
+D94  |%|
+D94  |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:25
+test format:%-*.X|%%|
+
+D93  |%|
+D93  |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:26
+test format:%-*.3X|%%|
+
+D92  |%|
+D92  |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:27
+test format:%-*.3X|%%|
+
+D91  |%|
+D91  |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:28
+test format:%-5.*X|%%|
+
+D90  |%|
+D90  |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:29
+test format:%-5.*X|%%|
+
+D8F  |%|
+D8F  |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:30
+test format:%-*.*X|%%|
+
+00D8E     |%|
+00D8E     |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:31
+test format:%-*.*X|%%|
+
+00D8D     |%|
+00D8D     |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:32
+test format:%-*.*X|%%|
+
+D8C       |%|
+D8C       |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:33
+test format:%-*.*X|%%|
+
+D8B       |%|
+D8B       |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:34
+test format:%5.X|%%|
+
+  D8A|%|
+  D8A|%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:35
+test format:%10.5X|%%|
+
+     00D89|%|
+     00D89|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:36
+test format:%10.*X|%%|
+
+     00D88|%|
+     00D88|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:37
+test format:%10.*X|%%|
+
+       D87|%|
+       D87|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:38
+test format:%*.X|%%|
+
+  D86|%|
+  D86|%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:39
+test format:%*.X|%%|
+
+D85  |%|
+D85  |%|
+
+ft_printf:9
+printf:9
+----------------------------
+test number #:40
+test format:%*.5X|%%|
+
+     00D84|%|
+     00D84|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:41
+test format:%*.5X|%%|
+
+00D83     |%|
+00D83     |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:42
+test format:%*.*X|%%|
+
+     00D82|%|
+     00D82|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:43
+test format:%*.*X|%%|
+
+00D81     |%|
+00D81     |%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:44
+test format:%*.*X|%%|
+
+       D80|%|
+       D80|%|
+
+ft_printf:14
+printf:14
+----------------------------
+test number #:45
+test format:%*.*X|%%|
+
+D7F       |%|
+D7F       |%|
+
+ft_printf:14
+printf:14
+
+<==============================%%end of X conversion test%%==============================>
+
+run [1m[37m./a.out | grep -B 10 "\[KO\]"[0m to see where the returns differ. (turn on infinite scroll in your terminal settings)
+run [1m[37m./a.out | grep -A 6 -B 1 'x|%%|'[0m to see specific conversion tests. (this specific command for example outputs the x conversion test only)
+run [1m[37m./a.out | grep "|%|" | awk 'NR % 2 == 0' > 1; ./a.out | grep '|%|' | awk 'NR % 2 == 1'> 2; diff 1 2 > 3; cat 3; rm 1 2 3 [0m to get the different outputs.
+This line shows up so don't worry.
