@@ -6,7 +6,7 @@
 /*   By: dhaouhao <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/23 08:19:55 by dhaouhao          #+#    #+#             */
-/*   Updated: 2019/12/27 03:10:14 by dhaouhao         ###   ########.fr       */
+/*   Updated: 2019/12/28 01:04:31 by dhaouhao         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -273,12 +273,16 @@ int main()
 	printf("|%%|\n");
 
 	printf("\n\n----------test50----------\n");
-	ft_printf("|%30%|\n");
-	printf("|%30%|\n");
+	ft_printf("|%20%|\n");
+	printf("|%20%|\n");
 
 	printf("\n\n----------test51----------\n");
-	ft_printf("|%020%|\n");
-	printf("|%020%|\n");
+	ft_printf("|%*%|\n", -20);
+	printf("|%*%|\n", -20);
+
+	printf("\n\n----------test52----------\n");
+	ft_printf("|%-*%|\n", 20);
+	printf("|%-*%|\n", 20);
 
 //Null specifier tests
 	// ft_printf("%");

@@ -6,7 +6,7 @@
 /*   By: dhaouhao <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/11 23:31:45 by dhaouhao          #+#    #+#             */
-/*   Updated: 2019/12/27 02:34:38 by dhaouhao         ###   ########.fr       */
+/*   Updated: 2019/12/28 01:00:31 by dhaouhao         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,6 @@ int		ft_printf(const char *str, ...)
 {
 	char	*converted_str;
 	va_list	args;
-	size_t	size;
 
 	if (!str)
 		return (0);
@@ -26,11 +25,10 @@ int		ft_printf(const char *str, ...)
 	va_end(args);
 	if (converted_str != NULL)
 	{
-		size = ft_strlen(converted_str);
 		ft_putstr(converted_str);
+		return(ft_strlen(converted_str));
 		free(converted_str);
 	}
 	else
-		size = 0;
-	return (size);
+		return (0);
 }

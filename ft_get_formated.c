@@ -6,7 +6,7 @@
 /*   By: dhaouhao <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/20 06:47:36 by dhaouhao          #+#    #+#             */
-/*   Updated: 2019/12/27 06:46:15 by dhaouhao         ###   ########.fr       */
+/*   Updated: 2019/12/27 07:12:57 by dhaouhao         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,9 +32,7 @@ char	*ft_get_formated(char *str, va_list args)
 		return(ft_format_nbr(&parsed, va_arg(args, int)));
 	else if (parsed.type == 'u')
 		return(ft_format_nbr(&parsed, va_arg(args, unsigned int)));
-	else if (parsed.type == 'x' || parsed.type == 'X')
-		return(ft_format_nbr(&parsed, va_arg(args, unsigned long)));
-	else if (parsed.type == 'p')
+	else if (parsed.type == 'x' || parsed.type == 'X' || parsed.type == 'p')
 		return(ft_format_nbr(&parsed, va_arg(args, unsigned long)));
 	else
 		return (NULL);
