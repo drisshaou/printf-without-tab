@@ -31,7 +31,9 @@ char	*ft_set_nbr_width(t_parse *parsed, long long value)
 	}
 	else
 		tmp = ft_lltoa(value < 0 ? -value : value);
-	is_neg = (value < 0 && parsed->type != 'p') ? 1 : 0;
+	if (parsed->type == 'x'|| parsed->type == 'X' || parsed->type == 'p')
+		value = (value < 0) ? -value : value;
+	is_neg = (value < 0) ? 1 : 0;
 	size = ft_strlen(tmp);
 	size += (is_neg) ? 1 : 0;
 	if (parsed->is_width && parsed->width > size)
