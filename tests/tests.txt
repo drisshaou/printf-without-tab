@@ -55,7 +55,6 @@ printf:9
 ----------------------------
 test number #:6
 test format:%010.5d|%%|
-
      00042|%|
      00042|%|
 
@@ -1424,12 +1423,11 @@ printf:9
 test number #:0
 test format:%p|%%|
 
--0xffffffffffffffff|%|
+0xffffffffffffffff|%|
 0xffffffffffffffff|%|
 
-ft_printf:23
+ft_printf:22
 printf:22
-[KO]
 ----------------------------
 test number #:1
 test format:%p|%%|
@@ -1452,12 +1450,11 @@ printf:21
 test number #:3
 test format:%p|%%|
 
--0xabcdef0123456789|%|
+0xabcdef0123456789|%|
 0xabcdef0123456789|%|
 
-ft_printf:23
+ft_printf:22
 printf:22
-[KO]
 ----------------------------
 test number #:4
 test format:%p|%%|
@@ -1480,27 +1477,25 @@ printf:7
 test number #:6
 test format:%p|%%|
 
--0xfedcba9876543210|%|
+0xfedcba9876543210|%|
 0xfedcba9876543210|%|
 
-ft_printf:23
+ft_printf:22
 printf:22
-[KO]
 ----------------------------
 test number #:7
 test format:%p|%%|
 
--0xfedcba987654320f|%|
+0xfedcba987654320f|%|
 0xfedcba987654320f|%|
 
-ft_printf:23
+ft_printf:22
 printf:22
-[KO]
 ----------------------------
 test number #:8
 test format:%20p|%%|
 
- -0xfedcba987654320e|%|
+  0xfedcba987654320e|%|
   0xfedcba987654320e|%|
 
 ft_printf:24
@@ -1509,7 +1504,7 @@ printf:24
 test number #:9
 test format:%-20p|%%|
 
--0xfedcba987654320d |%|
+0xfedcba987654320d  |%|
 0xfedcba987654320d  |%|
 
 ft_printf:24
@@ -1518,7 +1513,7 @@ printf:24
 test number #:10
 test format:%*p|%%|
 
- -0xfedcba987654320c|%|
+  0xfedcba987654320c|%|
   0xfedcba987654320c|%|
 
 ft_printf:24
@@ -1527,7 +1522,7 @@ printf:24
 test number #:11
 test format:%*p|%%|
 
--0xfedcba987654320b |%|
+0xfedcba987654320b  |%|
 0xfedcba987654320b  |%|
 
 ft_printf:24
@@ -1536,17 +1531,16 @@ printf:24
 test number #:12
 test format:%-p|%%|
 
--0xfedcba987654320a|%|
+0xfedcba987654320a|%|
 0xfedcba987654320a|%|
 
-ft_printf:23
+ft_printf:22
 printf:22
-[KO]
 ----------------------------
 test number #:13
 test format:%-*p|%%|
 
--0xfedcba9876543209 |%|
+0xfedcba9876543209  |%|
 0xfedcba9876543209  |%|
 
 ft_printf:24
@@ -1555,7 +1549,7 @@ printf:24
 test number #:14
 test format:%-*p|%%|
 
--0xfedcba9876543208 |%|
+0xfedcba9876543208  |%|
 0xfedcba9876543208  |%|
 
 ft_printf:24

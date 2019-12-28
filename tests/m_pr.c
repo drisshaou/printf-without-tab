@@ -9,7 +9,7 @@
 /*   Updated: 2019/12/20 20:23:54 by isaadi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
+#include <libc.h>
 #include <stdio.h>
 #include <string.h>
 int		ft_printf(const char *format, ...);
@@ -31,8 +31,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -46,8 +46,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -61,8 +61,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -76,8 +76,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -91,8 +91,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -106,8 +106,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -121,8 +121,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -136,8 +136,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -151,8 +151,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -166,8 +166,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -181,8 +181,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -196,8 +196,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -211,8 +211,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -226,8 +226,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -241,8 +241,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -256,8 +256,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -271,8 +271,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -286,8 +286,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -301,8 +301,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -316,8 +316,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -331,8 +331,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -346,8 +346,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -361,8 +361,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -376,8 +376,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -391,8 +391,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -406,8 +406,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -421,8 +421,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -436,8 +436,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -451,8 +451,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -466,8 +466,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -481,8 +481,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -496,8 +496,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -511,8 +511,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -526,8 +526,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -541,8 +541,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -556,8 +556,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -571,8 +571,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -586,8 +586,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -601,8 +601,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -616,8 +616,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -631,8 +631,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -646,8 +646,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -661,8 +661,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -676,8 +676,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -691,8 +691,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -706,8 +706,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -721,8 +721,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -736,8 +736,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -751,8 +751,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -766,8 +766,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -781,8 +781,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -796,8 +796,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -811,8 +811,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -826,8 +826,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -841,8 +841,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -856,8 +856,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -871,8 +871,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -886,8 +886,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -901,8 +901,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -916,8 +916,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -931,8 +931,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -946,8 +946,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -961,8 +961,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -976,8 +976,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -991,8 +991,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1006,8 +1006,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1021,8 +1021,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1036,8 +1036,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1051,8 +1051,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1066,8 +1066,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1081,8 +1081,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1096,8 +1096,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1111,8 +1111,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1126,8 +1126,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1141,8 +1141,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1156,8 +1156,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1171,8 +1171,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1186,8 +1186,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1201,8 +1201,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1216,8 +1216,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1231,8 +1231,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1246,8 +1246,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1261,8 +1261,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1276,8 +1276,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1291,8 +1291,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1306,8 +1306,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1321,8 +1321,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1336,8 +1336,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("\n<==============================%%%%end of d conversion test%%%%==============================>\n\n");
 	fflush(stdout);
@@ -1354,8 +1354,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1369,8 +1369,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1384,8 +1384,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1399,8 +1399,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1414,8 +1414,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1429,8 +1429,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1444,8 +1444,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1459,8 +1459,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1474,8 +1474,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1489,8 +1489,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1504,8 +1504,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1519,8 +1519,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1534,8 +1534,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1549,8 +1549,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1564,8 +1564,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1579,8 +1579,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1594,8 +1594,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1609,8 +1609,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1624,8 +1624,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1639,8 +1639,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1654,8 +1654,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1669,8 +1669,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1684,8 +1684,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1699,8 +1699,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1714,8 +1714,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1729,8 +1729,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1744,8 +1744,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1759,8 +1759,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1774,8 +1774,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1789,8 +1789,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1804,8 +1804,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1819,8 +1819,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1834,8 +1834,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1849,8 +1849,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1864,8 +1864,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1879,8 +1879,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1894,8 +1894,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1909,8 +1909,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1924,8 +1924,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1939,8 +1939,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1954,8 +1954,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1969,8 +1969,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1984,8 +1984,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -1999,8 +1999,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -2014,8 +2014,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -2029,8 +2029,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -2044,8 +2044,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -2059,8 +2059,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -2074,8 +2074,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -2089,8 +2089,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -2104,8 +2104,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -2119,8 +2119,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -2134,8 +2134,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -2149,8 +2149,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -2164,8 +2164,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -2179,8 +2179,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -2194,8 +2194,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -2209,8 +2209,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -2224,8 +2224,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -2239,8 +2239,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -2254,8 +2254,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -2269,8 +2269,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("\n<==============================%%%%end of s conversion test%%%%==============================>\n\n");
 	fflush(stdout);
@@ -2290,8 +2290,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -2306,8 +2306,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -2322,8 +2322,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -2338,8 +2338,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -2354,8 +2354,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -2370,8 +2370,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -2386,8 +2386,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("\n<==============================%%%%end of c conversion test%%%%==============================>\n\n");
 	fflush(stdout);
@@ -2405,8 +2405,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -2420,8 +2420,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -2435,8 +2435,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -2450,8 +2450,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -2465,8 +2465,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -2480,8 +2480,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -2496,8 +2496,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -2512,8 +2512,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -2528,8 +2528,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -2544,8 +2544,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -2560,8 +2560,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -2576,8 +2576,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -2592,8 +2592,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -2608,8 +2608,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -2624,8 +2624,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -2640,8 +2640,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("\n<==============================%%%%end of p conversion test%%%%==============================>\n");
 	fflush(stdout);
@@ -2658,8 +2658,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -2673,8 +2673,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -2688,8 +2688,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -2703,8 +2703,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -2718,8 +2718,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -2733,8 +2733,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -2748,8 +2748,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -2763,8 +2763,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -2778,8 +2778,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -2793,8 +2793,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -2808,8 +2808,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -2823,8 +2823,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -2838,8 +2838,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -2853,8 +2853,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -2868,8 +2868,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -2883,8 +2883,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -2898,8 +2898,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -2913,8 +2913,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -2928,8 +2928,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -2943,8 +2943,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -2958,8 +2958,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -2973,8 +2973,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -2988,8 +2988,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -3003,8 +3003,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -3018,8 +3018,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -3033,8 +3033,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -3048,8 +3048,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -3063,8 +3063,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -3078,8 +3078,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -3093,8 +3093,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -3108,8 +3108,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -3123,8 +3123,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -3138,8 +3138,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -3153,8 +3153,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -3168,8 +3168,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -3183,8 +3183,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -3198,8 +3198,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -3213,8 +3213,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -3228,8 +3228,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -3243,8 +3243,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -3258,8 +3258,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -3273,8 +3273,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -3288,8 +3288,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -3303,8 +3303,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -3318,8 +3318,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -3333,8 +3333,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("\n<==============================%%%%end of u conversion test%%%%==============================>\n\n");
 	fflush(stdout);
@@ -3352,8 +3352,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -3368,8 +3368,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -3384,8 +3384,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -3400,8 +3400,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -3416,8 +3416,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -3432,8 +3432,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -3448,8 +3448,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -3464,8 +3464,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -3480,8 +3480,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -3496,8 +3496,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -3512,8 +3512,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -3528,8 +3528,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -3544,8 +3544,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -3560,8 +3560,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -3576,8 +3576,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -3592,8 +3592,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -3608,8 +3608,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -3624,8 +3624,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -3640,8 +3640,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -3656,8 +3656,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -3672,8 +3672,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -3688,8 +3688,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -3704,8 +3704,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -3720,8 +3720,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -3736,8 +3736,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -3752,8 +3752,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -3768,8 +3768,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -3784,8 +3784,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -3800,8 +3800,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -3816,8 +3816,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -3832,8 +3832,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -3848,8 +3848,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -3864,8 +3864,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -3880,8 +3880,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -3896,8 +3896,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -3912,8 +3912,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -3928,8 +3928,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -3944,8 +3944,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -3960,8 +3960,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -3976,8 +3976,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -3992,8 +3992,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -4008,8 +4008,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -4024,8 +4024,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -4040,8 +4040,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -4056,8 +4056,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -4072,8 +4072,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("\n<==============================%%%%end of x conversion test%%%%==============================>\n\n");
 	fflush(stdout);
@@ -4091,8 +4091,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -4107,8 +4107,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -4123,8 +4123,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -4139,8 +4139,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -4155,8 +4155,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -4171,8 +4171,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -4187,8 +4187,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -4203,8 +4203,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -4219,8 +4219,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -4235,8 +4235,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -4251,8 +4251,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -4267,8 +4267,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -4283,8 +4283,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -4299,8 +4299,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -4315,8 +4315,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -4331,8 +4331,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -4347,8 +4347,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -4363,8 +4363,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -4379,8 +4379,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -4395,8 +4395,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -4411,8 +4411,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -4427,8 +4427,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -4443,8 +4443,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -4459,8 +4459,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -4475,8 +4475,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -4491,8 +4491,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -4507,8 +4507,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -4523,8 +4523,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -4539,8 +4539,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -4555,8 +4555,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -4571,8 +4571,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -4587,8 +4587,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -4603,8 +4603,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -4619,8 +4619,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -4635,8 +4635,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -4651,8 +4651,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -4667,8 +4667,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -4683,8 +4683,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -4699,8 +4699,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -4715,8 +4715,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -4731,8 +4731,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -4747,8 +4747,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -4763,8 +4763,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -4779,8 +4779,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -4795,8 +4795,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("----------------------------\ntest number #:%d\n", k++);
 	fflush(stdout);
@@ -4811,8 +4811,8 @@ int main(int argc, char **argv)
 	fflush(stdout);
 	printf("printf:%d\n", y);
 	fflush(stdout);
-	if (x != y)
-		printf("[KO]\n");
+	if (x != y){
+		printf("[KO]\n");}
 	fflush(stdout);
 	printf("\n<==============================%%%%end of X conversion test%%%%==============================>\n\n");
 	fflush(stdout);

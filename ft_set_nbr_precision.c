@@ -24,7 +24,7 @@ char	*ft_set_nbr_precision(t_parse *parsed, long long value)
 		tmp = ft_strupcase(ft_hex_to_str((unsigned long)value));
 	else
 		tmp = ft_lltoa(value < 0 ? -value : value);
-	is_neg = value < 0 ? 1 : 0;
+	is_neg = (value < 0) ? 1 : 0;
 	size = ft_strlen(tmp);
 	if (parsed->is_0_filled)
 		parsed->is_0_filled = 0;

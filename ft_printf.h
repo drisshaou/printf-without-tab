@@ -50,7 +50,6 @@ char			*ft_apply_nbr_width(t_parse *parsed, int is_neg, size_t sz,
 					char *tmp);
 char			*ft_nbr_precision_n_width(t_parse *parsed, long long value);
 char			*ft_hex_to_str(unsigned long nbr);
-
 char			*ft_lltoa(long long n);
 int				ft_atoi(const char *s);
 int				ft_isdigit(int c);

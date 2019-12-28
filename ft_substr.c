@@ -27,5 +27,6 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 			i++;
 		}
 	substr[i] = '\0';
+	printf("substr : %s\n", substr);
 	return (substr);
 }

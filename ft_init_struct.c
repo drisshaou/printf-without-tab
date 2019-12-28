@@ -16,9 +16,9 @@ void	ft_init_struct(t_parse *parsed)
 {
 	parsed->is_left = 0;
 	parsed->is_0_filled = 0;
+	parsed->is_width = 0;
 	parsed->width = 0;
+	parsed->is_prec = 0;
 	parsed->prec = 0;
 	parsed->type = 0;
-	parsed->is_width = 0;
-	parsed->is_prec = 0;
 }
