@@ -15,6 +15,7 @@
 char	*ft_format_char(t_parse *parsed, char c)
 {
 	char	*s;
+
 	if (!(s = malloc(sizeof(char) * 2)))
 		return (NULL);
 	s[0] = c;

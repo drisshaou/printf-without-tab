@@ -29,7 +29,7 @@ int		ft_printf(const char *str, ...)
 		ft_putstr(converted_str);
 		size = ft_strlen(converted_str);
 		free(converted_str);
-		return(size);
+		return (size);
 	}
 	else
 		return (0);

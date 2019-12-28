@@ -26,7 +26,6 @@ void	ft_convert_str(const char *str, char **converted_str, va_list args)
 			i++;
 		if (i > 0)
 		{
-			//i += (*str == '%') ? 1 : 0;
 			if (*str == '%' && i++)
 				string = ft_get_formated(ft_substr(str, 1, i - 1), args);
 			else

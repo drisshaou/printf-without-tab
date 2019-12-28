@@ -19,21 +19,21 @@ char	*ft_get_formated(char *str, va_list args)
 
 	ft_fill_struct(args, &parsed, str);
 	if (parsed.type == '%')
-		return(ft_format_char(&parsed, '%'));
+		return (ft_format_char(&parsed, '%'));
 	else if (parsed.type == 'c')
-		return(ft_format_char(&parsed, (char)va_arg(args, int)));
+		return (ft_format_char(&parsed, (char)va_arg(args, int)));
 	else if (parsed.type == 's')
 	{
 		va_string = va_arg(args, char *);
 		va_string = (va_string == NULL) ? "(null)" : va_string;
-		return(ft_format_string(&parsed, ft_strdup(va_string)));
+		return (ft_format_string(&parsed, ft_strdup(va_string)));
 	}
 	else if (parsed.type == 'd' || parsed.type == 'i')
-		return(ft_format_nbr(&parsed, va_arg(args, int)));
+		return (ft_format_nbr(&parsed, va_arg(args, int)));
 	else if (parsed.type == 'u')
-		return(ft_format_nbr(&parsed, va_arg(args, unsigned int)));
+		return (ft_format_nbr(&parsed, va_arg(args, unsigned int)));
 	else if (parsed.type == 'x' || parsed.type == 'X' || parsed.type == 'p')
-		return(ft_format_nbr(&parsed, va_arg(args, unsigned long)));
+		return (ft_format_nbr(&parsed, va_arg(args, unsigned long)));
 	else
 		return (NULL);
 }

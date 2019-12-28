@@ -32,7 +32,7 @@ char	*ft_hex_to_str(unsigned long nbr)
 		return (NULL);
 	i = 0;
 	while (--len >= 0)
-			hex[i++] = base[nbr_final[len]];
+		hex[i++] = base[nbr_final[len]];
 	hex[i] = '\0';
 	return (hex);
 }
