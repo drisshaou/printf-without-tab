@@ -6,7 +6,7 @@
 /*   By: dhaouhao <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/07 11:29:35 by dhaouhao          #+#    #+#             */
-/*   Updated: 2019/12/24 01:45:33 by dhaouhao         ###   ########.fr       */
+/*   Updated: 2019/12/29 03:44:05 by dhaouhao         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,6 +27,5 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 			i++;
 		}
 	substr[i] = '\0';
-	printf("substr : %s\n", substr);
 	return (substr);
 }

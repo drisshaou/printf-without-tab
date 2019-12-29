@@ -6,7 +6,7 @@
 /*   By: dhaouhao <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/24 01:25:43 by dhaouhao          #+#    #+#             */
-/*   Updated: 2019/12/26 01:56:41 by dhaouhao         ###   ########.fr       */
+/*   Updated: 2019/12/29 03:44:03 by dhaouhao         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ char	*ft_apply_nbr_width(t_parse *parsed, int is_neg, size_t sz, char *tmp)
 	index = sz - ft_strlen(tmp);
 	if (!(str = malloc(sizeof(char) * (sz + 1))))
 		return (NULL);
-	if (parsed->is_0_filled && parsed->type != 'p')
+	if (parsed->is_0_filled)
 		ft_memset(str, '0', sz);
 	else
 		ft_memset(str, ' ', sz);
