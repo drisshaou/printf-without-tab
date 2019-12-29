@@ -6,7 +6,7 @@
 /*   By: dhaouhao <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/23 08:19:55 by dhaouhao          #+#    #+#             */
-/*   Updated: 2019/12/28 01:04:31 by dhaouhao         ###   ########.fr       */
+/*   Updated: 2019/12/29 02:50:46 by dhaouhao         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -210,9 +210,13 @@ int main()
 	ft_printf("|%x|\n", -42);
 	printf("|%x|\n", -42);
 
-	printf("\n\n----------test35'----------\n");
-	ft_printf("|%x|\n", LLONG_MAX);
-	printf("|%llx|\n", LLONG_MAX);
+	printf("\n\n----------test35 '----------\n");
+	ft_printf("|%20x|\n", ULLONG_MAX);
+	printf("|%20llx|\n", ULLONG_MAX);
+
+	printf("\n\n----------test35 ''----------\n");
+	ft_printf("|%20x|\n", -10);
+	printf("|%20x|\n", -10);
 
 	printf("\n\n----------test36----------\n");
 	ft_printf("|%.10X|\n", 42);
